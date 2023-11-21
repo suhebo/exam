@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    height: 10vh;
+    display:flex;
+    margin: 20px;
+    gap: 50px;
+
+}
+.button2{
+    justify-content: end;
+}
+.head{
+    display: flex;
+    gap: 120px;
+}
+button{
+    background-color: white;
+    border-radius: 6px;
+    width: 80px;
+    border:3px plum solid;
+    margin: 20px;
+    
+}
+
+
+.header img{
+    width: 200px;
+    height: 70px;
+    
+}
+.face{
+    background-color: rgb(134, 57, 134);
+    height: 70vh;
+    display: flex;
+    gap: 50px;
+}
+.right{
+    padding: 40px;
+    color: white;
+}
+.right h5{
+    font-size: 2em;
+}
+.right h1{
+    font-size: 3em;
+}
+.left{
+    padding-top: 20px;
+    
+}
+.sawir{
+    height: 130vh;
+}
+.sawir img{
+    position: relative;
+    height: 500px;
+    margin: 40px;
+    width: 700px;
+    height: 90vh;
+}
+.content{
+    position: absolute;
+    margin-top: -120px;
+    background-color: white;
+    border-radius: 7px;
+    width: 650px;
+    box-shadow: 0px 0px 2px gray;
+    left: 30em;
+    height: 45vh;
+    
+}
+.read{
+    border: 2px rgb(170, 66, 136) solid;
+    margin: 20px;
+    width: 80px;
+    height: 30px;
+}
+.family{
+    height: 100vh;
+    margin: 20px;
+}
+.family img{
+    width: 500px;
+    height: 90vh;
+}
+.one{
+    display: flex;
+}
+.one h4{
+    margin: 20px;
+    font-size: 3em;
+}
+.recent{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.br{
+    width: 55px;
+    height: 30px;
+    background-color: purple;
+    
+
+}
+.parent{
+    display: flex;
+}
+.grass{
+    margin: 30px;
+}
+.grass img{
+    width: 230px;
+    height: 40vh;
+    border-radius: 12px;
+  }
+
+  .grass h3{
+    font-size: 1.7em;
+    padding-top: 20px;
+    color: rgb(53, 53, 53);
+  }
+
+  .grass a{
+    color: rgb(182, 65, 65);
+  }
+
+  .footer{
+    margin-top: 2%;
+    background-color: rgb(43, 23, 91);
+    text-align: center;
+}
+.footer h1{
+    padding-top: 4%;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 12px;
+}
+.footer input{
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    width: 250px;
+    height: 35px;
+}
+.get{
+    width: 90px;
+    height: 40px;
+  
+    background-color: transparent;
+    border-color: white;
+    border-radius: 6px;
+    color: white;
+}
+.footer p{
+    padding: 18px;
+    color: gray;
+    
+}
